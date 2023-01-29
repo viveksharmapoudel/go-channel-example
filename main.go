@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"queue-datastructure/queue"
+	queue_datastructure "go-channel-example/queue-datastructure"
 	"sync"
 	"time"
 )
@@ -10,7 +10,7 @@ import (
 func main() {
 	bufferSize := 5
 	counter := 20
-	q := queue.NewQueue(bufferSize)
+	q := queue_datastructure.NewQueue(bufferSize)
 	var wg sync.WaitGroup
 
 	wg.Add(1)

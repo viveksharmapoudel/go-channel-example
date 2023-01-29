@@ -1,4 +1,4 @@
-package queue
+package queue_datastructure
 
 type Queue struct {
 	data chan interface{}
